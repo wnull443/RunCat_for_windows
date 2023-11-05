@@ -29,6 +29,7 @@ namespace RunCat
         [STAThread]
         static void Main()
         {
+            // test
             // terminate runcat if there's any existing instance
             var procMutex = new System.Threading.Mutex(true, "_RUNCAT_MUTEX", out var result);
             if (!result)
